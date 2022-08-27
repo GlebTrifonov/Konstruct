@@ -13,8 +13,10 @@ html {
 }
 
 body {
-    background: var(--background);
+    background: var(--white);
     font-family: var(--font);
+    margin: 0;
+    padding: 0;
 }
 
 .wrapper {
@@ -207,14 +209,15 @@ b {
 
 .capabilities {
     background: var(--white);
-    padding-top: 117px;
-    padding-bottom: 115px;
+    margin-top: 117px;
+    margin-bottom: 115px;
 }
 
 .capabilities-header {
     display: flex;
     justify-content: space-between;
     margin-bottom: 76px;
+    align-items: center;
 }
 
 .capabilities-header h2 {
@@ -332,6 +335,7 @@ b {
 }
 
 .signup input {
+    padding-left: 16px;
     min-height: 40px;
     min-width: 250px;
     border: 1px #979797 ;
@@ -469,6 +473,11 @@ margin: 0;
 .img-company {
     padding-top: 40px;
     color: white;
+    
+}
+
+.img-company img {
+    margin-right: 24px;
 }
    
 footer {
